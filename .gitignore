@@ -1,0 +1,14 @@
+# Ignore build artifacts
+/build/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+
+# Ignore JetBrains CLion settings
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
