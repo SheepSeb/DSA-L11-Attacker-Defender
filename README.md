@@ -46,11 +46,12 @@ cmake --build .
 
 # Run the compiled executable
 ./DSA_L11
-
-📦 Example Execution Output
-
 ```
-🛡️  [START] Defender is setting up the hashtable...
+
+## 📦 Example Execution Output
+
+```bash
+🛡️ [START] Defender is setting up the hashtable...
 📦 [INFO] Defender has set up the table.
 🎯 [INFO] Attacker begins guessing...
 
@@ -64,12 +65,14 @@ cmake --build .
 ✅ [INFO] Round finished. Awaiting next duel...
 ```
 
-🧪 Submissions
+## 🧪 Submissions
 
 Each team must submit:
 - attacker_setup.cpp
 - defender_setup.cpp
 
 Place your files in your team-specific folder. The organizer can switch teams or run all teams in sequence.
+
+---
 
 Have fun defending and cracking! 🧠🔓
