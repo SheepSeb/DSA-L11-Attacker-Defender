@@ -77,7 +77,7 @@ template<typename Tkey, typename Tvalue> class Hashtable {
                         else
                         {
                             fprintf(stderr, "Error 101 - The key does not exist in the hashtable\n");
-                            return NULL;
+                            return Tvalue{};
                         }
                 }
 
